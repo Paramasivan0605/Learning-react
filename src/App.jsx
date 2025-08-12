@@ -4,6 +4,7 @@ import Class from "./conceptes/components/Class"
 import JsxExample from "./conceptes/jsx/JsxExample"
 import PropsExample from "./conceptes/props/PropsExample"
 import StateExpample from "./conceptes/state/StateExample"
+import EventHandling from "./conceptes/handling/EventHandling"
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
   // return <Class />
   // return <JsxExample />
   // return <PropsExample tech = "react , javascript" title="Welcome to siva react courses"/>
-  return <StateExpample />
+  // return <StateExpample />
+  return <EventHandling />
 }
 
 export default App
