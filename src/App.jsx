@@ -5,6 +5,7 @@ import JsxExample from "./conceptes/jsx/JsxExample"
 import PropsExample from "./conceptes/props/PropsExample"
 import StateExpample from "./conceptes/state/StateExample"
 import EventHandling from "./conceptes/handling/EventHandling"
+import SimpleForm from "./conceptes/handling/SimpleForm"
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
   // return <JsxExample />
   // return <PropsExample tech = "react , javascript" title="Welcome to siva react courses"/>
   // return <StateExpample />
-  return <EventHandling />
+  // return <EventHandling />
+  return <SimpleForm />
 }
 
 export default App
